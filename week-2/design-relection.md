@@ -1,3 +1,3 @@
-![Alt text](../imgs/sitemap.jpg)
+[Sitemap](/imgs/sitemap.jpg)
 
 #please
