@@ -1,3 +1,1 @@
-[Sitemap](/imgs/sitemap.jpg)
-
-#please
+[Sitemap](phase-0/week-2/imgs/sitemap.jpg)
