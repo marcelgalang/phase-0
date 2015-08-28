@@ -1,2 +1,0 @@
-![Alt text](../sitemap.jpg)
-
