@@ -9,6 +9,7 @@
 6. What is user experience design and why is it valuable?
 7. Which parts of the challenge did you find tedious?
 
+
 2.3 Refelction Responses
 1.The 6 Phases of Web Design
   1.Information Gathering-  What is your purpose?  Your goals?  Who is the target audience of your site and what content will they be looking for?  This is the stage where those wuestions should be asked.
