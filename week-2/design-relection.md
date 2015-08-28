@@ -1,1 +1,1 @@
-[Sitemap](phase-0/week-2/imgs/sitemap.jpg)
+[Sitemap](imgs/sitemap.jpg)
