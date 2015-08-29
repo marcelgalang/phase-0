@@ -1,4 +1,4 @@
-[index wire](week-2/wireframe-index.png)
-[blog index](week-2/wireframe-blog-index.png)
+[index wire](wireframe-index.png)
+[blog index](wireframe-blog-index.png)
 
 My wireframe is a visual guide that represents the skeletal framework of my website.  It allows me to define the information hierarchy of the design and make it easier to plan the layout according to how I want the user to process the information.  It was a fun challenge to consider how to represent every element on  a page while not making it seem busy.  I like things to have their place.  This minimizes confusion for both me the developer and hopefully the user as well.  It  did take a few revisions to accomplish a clean layout as I thought more about the needs of other pages on the site I made layout changes.  I enjoyed the “big picture” process of considering everything that the site should contain.  It let me know there was going to be some good work to be done.
