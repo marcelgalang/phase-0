@@ -1,0 +1,18 @@
+html {
+  text: #000080;
+  links: #800080;
+  visited links: #ff0000;
+  background: #ffffff;
+
+}
+
+div  a {
+    font-size: 125%;
+
+}
+
+
+ul {-webkit-columns: 300px 2;
+   -moz-columns: 300px 2;
+        columns: 300px 2;
+}
