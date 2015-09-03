@@ -1,18 +1,39 @@
 html {
-  text: #000080;
+  text-decoration-color: #000080;
   links: #800080;
   visited links: #ff0000;
   background: #ffffff;
 
 }
 
-div  a {
-    font-size: 125%;
+.header {
+  text-align: center;
+
+}
+
+.tableofcontents {
+    font-size: 150%;
 
 }
 
 
-ul {-webkit-columns: 300px 2;
+.columns {-webkit-columns: 300px 2;
    -moz-columns: 300px 2;
         columns: 300px 2;
+}
+
+.t-small{
+  font-size: 50%
+}
+
+.t-med{
+  font-size: 75%
+}
+
+.t-large{
+  font-size: 150%
+}
+
+.t-xl{
+  font-size: 200%
 }
