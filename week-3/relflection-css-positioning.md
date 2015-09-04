@@ -36,11 +36,11 @@ What was your impression of this challenge overall? (love, hate, and why?)
 
 It was rubbing your belly and tapping your head at the same time.  A lot of multi-tasking! We spent a lot of time moving pieces that may or may not be relavent to the task at hand.  A lot of trail and error.
 
-[Change the Colors](./chrome-devtools/imgs/1-changethecolors.png)
-[Column](./chrome-devtools/imgs/2-column.png)
+[Change the Colors](./chrome-devtools/imgs/1-Changethecolors.png)
+[Column](./chrome-devtools/imgs/2-Column.png)
 [Row](./chrome-devtools/imgs/3-row.png)
 [Make Equidistant](./chrome-devtools/imgs/4-makeequidistant.png)
 [Squares](./chrome-devtools/imgs/5-squares.png)
 [Footer](./chrome-devtools/imgs/6-footer.png)
 [Header and Sidebar](./chrome-devtools/imgs/7-headerandsidebar.png)
-[Set squares in four corners](./chrome-devtools/imgs/8-foursquares.png)
+[Set squares in four corners](./chrome-devtools/imgs/8-fourcorners.png)
