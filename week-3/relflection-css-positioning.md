@@ -43,4 +43,4 @@ It was rubbing your belly and tapping your head at the same time.  A lot of mult
 [Squares](./chrome-devtools/imgs/5-squares.png)<br>
 [Footer](./chrome-devtools/imgs/6-footer.png)<br>
 [Header and Sidebar](./chrome-devtools/imgs/7-headerandsidebar.png)<br>
-[Set squares in four corners](./chrome-devtools/imgs/8-fourcorners.png)<br>
+[Creative Challenge - Set squares in four corners](./chrome-devtools/imgs/8-fourcorners.png)<br>
