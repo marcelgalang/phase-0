@@ -57,3 +57,20 @@ ul:visited {
 }
 
 .hline { width:100%; height:2px; color: #000000 }
+/*
+What is important to know when linking an external file (like a stylesheet) to an HTML file?
+- An external style sheet is linked through the HTML's Link element. The type attribute should specify "text/css" and a link (href) to your CSS file. This link tag must be in the head section.
+
+What tricks did you use to help you with positioning? How hard was it to get the site as you wanted it?
+- The trickiest thing to position was the text within the two columns. Initially we found a CSS code to line up the text into columns but it caused the bullet points to disappear - for my partner, the bullets were not present in the right column and for me, there were no bullets at all. We tried to apply a table, with each row containing two text items, with each text item having <ul> and <l> tags so that there would be bullet points. We also tried to apply 0 for the borders and cell padding so that there wouldn't be any table lines. It worked except the table text shifted all the way to the bottom, underneath the Geico logo and legal description. We postulated this was because we had a "center" class for the body so the table we created was either ignoring it or clashes with it. This was extremely frustrating because it had been very tedious and time consuming to add all the tags to each bulletpoint text. We went back to our original code, the column code for CSS we found by googling.
+
+I also had a lot of trouble with the title because I was trying to capitalize the first letter or each word. I couldn't figure it out so I tried dividing the first letter from the rest of the word as classes but it really made everything look off. When I expressed this to my partner, he told me about the <span> tags and how he achieved it for his page.
+
+What CSS did you use to modify the element style (like size, color, etc.)
+- We used the colors as listed in the assignment and for all the sizes, we played around with the px until it matched closely to the Berkshire webpage.
+
+Did you modify the HTML to include classes or ids? If so, which did you chose and why? If you didn't, how would you know which one to add to your HTML?
+- We initially used elements by mistake during our first session and it was extremely difficult to get anything to apply. We timeboxed ourselves and decided to pick it up a few days later. During this time, we realized we were supposed to be using classes. It had never occurred to me to use ids. I asked my partner about it and he explained that classes was best to use so we can apply it to all the aspects of our HTML, because ids can only be used once and in that specific block of code.
+
+When you compared your site to the actual code base, which do you think had cleaner code that followed best practices and why?
+- My partner discovered that the actual code base only used HTML and no CSS at all so I find it hard to compare what could've had a cleaner code. But I think that if we were able to polish our CSS code, ours would've been cleaner. My partner had realized that instead of writing out our CSS code and applying it to the HTML, it'd be cleaner to reverse it. So he wrote out the HTML code in detail so that it'd do most of the positioning and then applied the CSS code where he wanted. For example, instead of dividing out classes in HTML and then applying the different fonts for each div class, he wrote out all possible different sizes in CSS, then applied them in the HTML in the appropriate places. I felt this was a very efficient way to go about the assignment.*/
