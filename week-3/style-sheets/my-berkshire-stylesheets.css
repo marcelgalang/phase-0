@@ -5,6 +5,7 @@
 }
 ul:link {
     color: #800080;
+    text-decoration: none;
 }
 
 ul:visited {
