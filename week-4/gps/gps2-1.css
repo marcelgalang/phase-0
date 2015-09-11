@@ -1,0 +1,30 @@
+.column-1{
+    background-color:blue;
+    display: inline-block;
+    width: 300px;
+    float:left;
+
+}
+
+.column-2{
+    background-color:green;
+    display:inline-block;
+    width: 300px;
+    float:right;
+
+}
+
+header{
+    position:relative;
+    width: 700px;
+    background-color:purple;
+}
+
+footer{
+    position:fixed;
+    bottom: 0;
+    background-color:red;
+    width: 700px;
+    text-align: center;
+
+}
