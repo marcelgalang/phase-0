@@ -14,7 +14,9 @@
 def smallest_integer(list_of_nums)
   # Your code goes here!
   copy=list_of_nums.min
-  p copy.to_s
+
 end
 
-smallest_integer([3, 2, 6])
+smallest_integer([1, 2, 3])
+smallest_integer([0, -10, 10])
+smallest_integer([-10, -20, -30])
