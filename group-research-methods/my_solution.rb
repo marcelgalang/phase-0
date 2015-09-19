@@ -36,9 +36,9 @@ def my_hash_modification_method!(source, thing_to_modify)
 end
 
 # Identify and describe the Ruby method(s) you implemented.
-#
-#
-#
+# .map/.map! iterates the given code block to each element (of self).  In this case it adds 1 to the integers
+#.kind_of? determines if the element is what we are looking for, in this case, an integer.  It is asking "what kind of element is this?"
+#.each iterates over every key/value pair
 
 
 # # Person 3
