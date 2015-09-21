@@ -77,6 +77,19 @@ p shopping_list
 p "This is the updating the list result"
 update_add(shopping_list,{"Lemonade" => 5, "Gummie Bears" => 7})
 
+=begin
 
-
+What did you learn about pseudocode from working on this challenge?
+It is important to be as specific as possible.
+What are the tradeoffs of using Arrays and Hashes for this challenge?
+We used hashes right away and did not look back.  Arrays may be easier to manipulate but it would be easy to get lost keeping items and quantities in the same container without designation.
+What does a method return?
+The output of the array from that method.
+What kind of things can you pass into methods as arguments?
+Objects like strings, integers or data structures like arrays and hashes
+How can you pass information between methods?
+Yes you can,  by calling the methods from outside the methods
+What concepts were solidified in this challenge, and what concepts are still confusing?
+What it takes and how easy it actually is to update a hash.
+=end
 
