@@ -1,0 +1,9 @@
+def initialize(labels)
+
+    labels = method(__method__).parameters.map { |arg| arg[1] }
+
+
+    unless labels == 1
+      raise ArgumentError.new("Invalid Arguement number")#single argument
+    end
+    end
