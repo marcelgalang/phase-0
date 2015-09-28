@@ -95,3 +95,14 @@ die.roll
 
 
 # Reflection
+=begin
+What were the main differences between this die class and the last one you created in terms of implementation? Did you need to change much logic to get this to work?
+Some of the logic carried over.  But not all of it.
+What does this exercise teach you about making code that is easily changeable or modifiable?
+I see how leaving things open for change makes the program more useful.  We can now change this into a boggle board, or 10 sided die.
+What new methods did you learn when working on this challenge, if any?
+#sample to use to get a random
+What concepts about classes were you able to solidify in this challenge?
+
+
+=end
