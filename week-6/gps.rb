@@ -46,4 +46,14 @@ p serving_size_calc("pie", 7)
 
 #  Reflection
 
+=begin
 
+What did you learn about making code readable by working on this challenge?
+Make sure the code works on some level first before trying to refactor.
+Did you learn any new methods? What did you learn about them?
+#has_key?  will answer an important question regarding hashes and their contents.
+What did you learn about accessing data in hashes?
+A valuable lesson that calling the key gets you the VALUE.
+What concepts were solidified when working through this challenge?
+Using hashes and the importance of readable code.
+=end
