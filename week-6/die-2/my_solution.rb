@@ -59,13 +59,10 @@ class Die
     return sides
 
 
-
-
-
  # x = self.method(__method__).arity
 
-    if labels.empty?
-      raise ArguementError.new("List is empty")
+    if (die.empty?)
+      raise ArgumentError.new("List is empty")
     end
 
 
@@ -86,7 +83,7 @@ end
 # end
 die = Die.new([])
 die.sides # still returns the number of sides, in this case 6
-p die.roll
+die.roll
 
 # Refactored Solution
 
