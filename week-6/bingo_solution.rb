@@ -58,3 +58,20 @@ board = [[47, 44, 71, 8, 88],
 new_game = BingoBoard.new(board)
 new_game.call
 new_game.check.map { |block| puts block.inspect }
+
+=begin
+Reflection
+How difficult was pseudocoding this challenge? What do you think of your pseudocoding style?
+It was difficult and time consuming.  Not only does my style need improvement but also my understanding of what is doable.  That is where the disconnect often was.
+
+What are the benefits of using a class for this challenge?
+You need a class to have instance variables that can travel past methods.
+How can you access coordinates in a nested array?
+Iterate through both dimensions or call both indices.
+What methods did you use to access and modify the array?
+I iterated with #map and #collect
+How did you determine what should be an instance variable versus a local variable?
+Do you need it outside of the current method?  That is my test.
+What do you feel is most improved in your refactored solution?
+I  ran out of time and wish I refactored the method check more.
+=end
