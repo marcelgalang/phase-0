@@ -1,3 +1,30 @@
+# A Nested Array to Model a Bingo Board SOLO CHALLENGE
+
+# I spent [6] hours on this challenge.
+
+
+# Release 0: Pseudocode
+# Outline:
+
+# Create a method to generate a letter ( b, i, n, g, o) and a number (1-100)
+  #fill in the outline here
+  method that holds random pick of letter and number
+
+# Check the called column for the number called.
+  #fill in the outline here
+  make columns for b, i n, g ,o
+  match letter draw with the column
+  check if number is in the choosen column
+
+# If the number is in the column, replace with an 'x'
+ iterate through index and replace with 'X'
+  #fill in the outline here
+
+# Display a column to the console
+  #fill in the outline here
+
+# Display the board to the console (prettily)
+  #fill in the outline here
 # # Initial Solution
 
 class BingoBoard
