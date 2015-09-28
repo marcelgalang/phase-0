@@ -60,3 +60,14 @@ p number_array
 startup_names = ["bit", ["find", "fast", ["optimize", "scope"]]]
 startup_names.flatten!.map! {|e| e + "ly"}
 p startup_names
+
+=begin
+  What are some general rules you can apply to nested arrays?
+Go through the entire array and make a count for each array.
+What are some ways you can iterate over nested arrays?
+You can iterate over the first dimension and then call to iterate over another as needed.  You can also flatten the whole array and iterate over that but it is destructive.
+Did you find any good new methods to implement or did you re-use one you were already familiar with? What was it and why did you decide that was a good option?
+#map and #flatten were essential.  These method were also the key to me solving other challenges this week.
+
+
+=end
