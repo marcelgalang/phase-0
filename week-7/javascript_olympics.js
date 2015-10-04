@@ -2,7 +2,7 @@
 
 // I paired [with: Paul E. ] on this challenge.
 
-// This challenge took me [#] hours.
+// This challenge took me [1.25] hours.
 
 
 // Bulk Up
