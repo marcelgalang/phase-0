@@ -1,7 +1,7 @@
 // Separate Numbers with Commas in JavaScript **Pairing Challenge**
 
 
-// I worked on this challenge with: .
+// I worked on this challenge with: Chris Mark.
 
 // Pseudocode
 // Input : An integer
@@ -58,3 +58,11 @@ function separateComma(integer) {
 
 // Reflection
 
+// What was it like to approach the problem from the perspective of JavaScript? Did you approach the problem differently?
+// In ruby I used integer values to determine each section of numbers.  This time we used the digit length.  Javascript was accommodating to using .length.
+// What did you learn about iterating over arrays in JavaScript?
+// Arrays become dynamic.  If the length is lengthened then every element can be effected.
+// What was different about solving this problem in JavaScript?
+// The logic was the same but finding the syntax was a challenge.  It’s as if we were translating through ruby to get to javascript.
+// What built-in methods did you find to incorporate in your refactored solution?
+// We did not have too much refactoring.  .join and .spcie were the methods we used.
