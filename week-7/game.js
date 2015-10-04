@@ -1,3 +1,76 @@
+// // Design Basic Game Solo Challenge
+
+// // This is a solo challenge
+
+// // Your mission description: Create a RPS game with smart choices, not random
+// // Overall mission: beat computer throw
+// // Goals: choose hand
+// // Characters:NA
+// // Objects: computerChoice, whoWins, history
+// // Functions:
+
+// // Pseudocode
+// //input: players inputs her throw
+// // output: computer’s throw compared to players throw
+
+
+// Ask player to pick throw
+//     -print to screen “Choose your weapon. Rock, paper or scissors?”
+// input creates userChoice
+
+
+// Have computer determine throw
+
+//     -create function that asks
+//         -if last two userChoice equals rock, rock
+//             T S
+// -if last two userChoice equals P, P
+//             T R
+// -if last two userChoice equals S, S
+//             T P
+//         -else if userChoice last throw or null(first throw of game)
+//             throw random throw
+// -else if last throw was a winning rock
+// throw P
+// -elsif LT was WP
+// T S
+// -else if LT was WS
+// T R
+// -ei LT was Losing Rock
+// T S
+// -ei LT was LS
+// T P
+// -ei LT LP
+// T R
+
+
+
+
+
+// Compare userChoice to computerChoice
+
+//     if userChoice is the same as computerChoice
+//     print “Tie”
+// if userChoice is rock and computerChoice is paper
+//     print “You lose!”
+// if userChoice is rock and computerChoice is Sc
+//     print “You win!”
+//     if userChoice is paper and computerChoice is rock
+//     print “You win!”
+// if userChoice is paper and computerChoice is Sc
+//     print “You lose!”
+// if userChoice is Scissors and computerChoice is rock
+//     print “You lose!”
+//     if userChoice is Scissors and computerChoice is paper
+//     print “You win!”
+
+// create userWins function that adds up user wins
+
+// create userLoses function that adds up computerWins
+
+// Print “Score is “userWins” to “computerWins”.  Throw R, P or S play again!”
+//Solution
+
 var playerScore = 0;
 var computerScore = 0;
 var history = [];
@@ -5,7 +78,7 @@ history[1]= undefined;
 history[2]= undefined;
 
 function welcomeMessage() {
-    alert("I am a master of Jan Ken Po.  I have studied the ancient art of Rock, Paper, Scissors for at least two hours. I use the odds to my favor and your own mind against you.  There is nothing random about my throws.  Best of five rounds wins.  Prepare for battle!");
+    alert("I am a master of Jan Ken Po.  I have studied the ancient art of Rock, Paper, Scissors for at least three hours. I use the odds to my favor and your own mind against you.  There is nothing random about my throws.  Best of five rounds wins.  Prepare for battle!");
 }
 
 function playGame(rounds) {
@@ -45,7 +118,6 @@ function resultCompile(playerGuess){
         history.unshift(playerGuess);
 
 }
-
 
 
 function randChoice(){
