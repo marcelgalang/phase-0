@@ -4,6 +4,10 @@
 
 // Program Structure
 // Write your own variable and do something to it.
+var name = "Steve"
+  console.log(name);
+
+
 prompt("What is your favorite food?");
 console.log("That's mine too!");
 
