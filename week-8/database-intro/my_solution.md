@@ -1,4 +1,4 @@
-![Cher Schema](../schema.png)
+![Cher Schema](database-intro/schema.png)
 
 What are databases for?
 It is a data structure to access large amount of data in a efficient way.
