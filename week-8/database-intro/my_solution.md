@@ -1,4 +1,4 @@
-![Cher Schema](/schema.png)
+![Cher Schema](/database-into/schema.png)
 
 What are databases for?
 
