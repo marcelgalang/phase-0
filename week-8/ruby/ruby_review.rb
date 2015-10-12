@@ -47,3 +47,9 @@ p num_words(35)
 
 
 # Reflection
+# What concepts did you review or learn in this challenge?
+# Working with hashes and calling values from them.
+# What is still confusing to you about Ruby?
+# I needed a refresher on hashes and Ruby.
+# What are you going to study to get more prepared for Phase 1?
+# All of my Ruby exercises and try to do the addtional ones to stay sharp.
