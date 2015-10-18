@@ -133,7 +133,12 @@ drive.display
 
 
 
-# 1. DRIVER TESTS GO BELOW THIS LINE
-
+# # 1. DRIVER TESTS GO BELOW THIS LINE
+# What concepts did you review in this challenge?
+# Moving data between methods and classes.
+# What is still confusing to you about Ruby?
+# Setting attributes correctly takes trial and error.
+# What are you going to study to get more prepared for Phase 1?
+# More iteration and control flow.
 
 
