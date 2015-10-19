@@ -10,15 +10,18 @@
 
 <form>
   Grocery Item<br>
-  <input type="text" id="item"name="item">
+  <input type="text" id="itemIn" />
   <br>
   How Many?<br>
-  <input type="text" id="quan" name="quantity">
+  <input type="text" id="quan" />
 </form>
   <br><br>
-  <input type="submit" value="Submit">
+
+  <button onclick="addItems()">add stuff</button>
+  <button onclick="removeItems()">remove stuff</button>
 
 <h3>the list</h3>
 <script type="text/javascript" src="review.js"></script>
 
 </body>
+<!-- onkeyup="formChanged()" onchange="formChanged()" -->
