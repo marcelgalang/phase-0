@@ -23,40 +23,69 @@
 
 
 // # Initial Solution
-var itemIn =  document.getElementById(item)
 
-var quan = document.getElementById(quan)
 
-var grocery_list = {}
 
-grocery_list[ item ] = quan;
+// var itemIn =  document.getElementById(item)[0].value;
+// document.write(itemIn)
+// var quan = document.getElementById(quan)[0].value;
+// document.write(quan)
 
-document.getElementsByTagName("h3")[0].innerHTML= grocery_list;
+// function formChanged() {
+//     var itemIn = ...
+//     var quan = ...
+// }
 
-document.write(grocery_list)
+// document.write(itemIn, quan)
+// var grocery_list = {}
+// grocery_list[ "itemIn" ] = "quan";
+
+// // document.getElementsByTagName("h3")[0].innerHTML= grocery_list;
+
+// document.write(grocery_list)
+
+// function addItems(item, quan){
+
+//   var grocery_list["item"]= "quan";
+// };
+
+// function removeItems(item, quan){
+
+//   delete  grocery_list["item"]
+
+// };
 
 // document.getElementsByTagName("H1")[0].innerHTML="I completed release 2!";
 
 
-// var grocery_list = {
-//     "Lemonade": 2,
-//     "Tomatoes": 3,
-//     "Onions": 1,
-//     "Ice Cream": 4,
+var grocery_list = {
+    "Lemonade": 2,
+    "Tomatoes": 3,
+    "Onions": 1,
+    "Ice Cream": 4,
 
-//   };
+  };
 
 
-// console.log(grocery_list);
+console.log(grocery_list);
 
-// delete grocery_list["Lemonade"];
+delete grocery_list["Lemonade"];
 
-// console.log(grocery_list);
+console.log(grocery_list);
 
-// grocery_list[ "Tomatoes" ] = 5;
+grocery_list[ "Tomatoes" ] = 5;
 
-// console.log(grocery_list);
+console.log(grocery_list);
 
-// grocery_list[ "Frozen Pizza" ] = 12;
+grocery_list[ "Frozen Pizza" ] = 12;
 
-// console.log(grocery_list);
+console.log(grocery_list);
+
+// Reflection
+
+// What concepts did you solidify in working on this challenge? (reviewing the passing of information, objects, constructors, etc.)
+// I have been unsuccessful at incorporating HTML and pure JS together.  I wanted my html forms to feed my JavaScript.
+// What was the most difficult part of this challenge?
+// Getting HTML output to become JavaScript, which I felt close to accomplishing but ran out of time.
+// Did an array or object make more sense to use and why?
+// For the basic JS code, no.  That was straightforward manipulation of the object.
